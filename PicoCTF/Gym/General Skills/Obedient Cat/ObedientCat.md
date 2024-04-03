@@ -1,5 +1,5 @@
 # Obedient Cat
-Obedient Cat is a challenge by SYREAL from picoCTF 2021 now in the picoGym worth 5 points.  It's under the "General Skills" category.
+Obedient Cat is a challenge by SYREAL from picoCTF 2021 now in the picoGym worth 5 points.  It's under the "General Skills" category.\
 Direct Link:  https://play.picoctf.org/practice/challenge/147
 
 ## Description
