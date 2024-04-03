@@ -22,6 +22,7 @@ You can follow the step by step below:
 1. Download the "flag" file from the Obedient Cat challenge to your Linux VM.  On Kali, the default download folder for FireFox is /home/kali/Downloads/.  Check out the article on the wiki for navigating around Kali, I won't get into details on that here.
 2. Open a console and navigate to the folder the flag is in, in my case I ran the command "cd /home/kali/Downloads/".
 3. Now run the following command to view the contents of the file "cat flag".  You should now see the flag there and can input it into picoCTF!
+![image](https://github.com/noah344/CTF_Stuff/assets/17501232/484f39b8-7a27-4e09-a2dc-5a76aa1764ac)
 
 ## Additional Resources
 The cat command is extremely versatile, even Linux pros probably don't know everything.  The below link is a great resource for learning some of it's applications:
