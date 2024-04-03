@@ -22,10 +22,12 @@ A really important note in the wikipedia article is this:
 
 Ok so lets give this a try, we can use a simple table like the one below to make it a little easier:
 
-Input 	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\
-Output 	NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
+Input\
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\
+Output\
+NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
 
-Original Text:  cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}
+Original Text:  cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}\
 Decrypted Text:  picoCTF{next_time_I'll_try_2_rounds_of_rot13_wqWOSBKW}
 
 Now, I'm not going to lie, I didn't do this by hand, hopefully you didn't either! If you just google online for a ROT13 decoder, you can find plenty online.
