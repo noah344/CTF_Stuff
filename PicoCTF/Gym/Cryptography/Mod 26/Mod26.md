@@ -30,6 +30,6 @@ NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
 Original Text:  cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}\
 Decrypted Text:  picoCTF{next_time_I'll_try_2_rounds_of_rot13_wqWOSBKW}
 
-Now, I'm not going to lie, I didn't do this by hand, hopefully you didn't either! If you just google online for a ROT13 decoder, you can find plenty online.
+Now, I'm not going to lie, I didn't do this by hand, hopefully you didn't either! If you just google online for a ROT13 decoder, you can find plenty online.  CyberChef is a fantastic resource for this type of challenge.
 
 I also thought it would be a nice little exercise to write a script for this, you can find it in the Mod 26 folder.  Definitely went way overboard on it as well and commented it out as much as I could to make it easy to understand!
