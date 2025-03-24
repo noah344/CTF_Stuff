@@ -17,6 +17,7 @@ and
 
 # Solving
 ## My Thoughts
+This challenge was an interesting one (I say that a lot but it's true).  RSA is one of those really high quality encryption algorithms and learning about weaknesses in things that are supposed to be secure is always interesting.
 
 ## What is RSA?
 RSA is an encryption algorithm that uses a public/private key pair to encrypt and decrypt data.  There's a lot of complicate crypto/math stuff in there if you want to look into it but we'll get to that!
