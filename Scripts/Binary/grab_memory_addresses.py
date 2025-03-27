@@ -14,7 +14,7 @@ while(True):
     count = int(input("Please enter the number of memory addresses we should try: "))
     break
   except Exception as e:
-    print("ERROR: Please enter a valid integer, your response ({count}) was not valid."))
+    print("ERROR: Please enter a valid integer, your response ({count}) was not valid.")
 
 # Loops until a break occurs
 while(True):
@@ -70,24 +70,24 @@ for i in range(1,count):
 
   # Checks if the leak is an exact match and adds it to exact_matches.
   if elf_leak in addrs.keys():
-    exact_matches.append(elf_leak)
+    exact_matches.append([elf_leak, i])
   # Checks if the leak is a close match and adds it to the close matches.
   elif start_addr[:-4] in elf_leak:
-    matches.append(elf_leak)
+    matches.append([elf_leak, i])
 
 # Only goes in here if there are any matches in exact_matches
 if exact_matches:
   print("\nEXACT MATCHES")
   print("-------------")
   for i in exact_matches:
-    print(f"Exact Match for Function {addrs[i]}: {i}")
+    print(f"Exact Match for Function {addrs[i[0]]} at offset {i[1]}: {i[0]}")
 
 # Only goes in here if there are any matches in matches
 if matches:
   print("\nCLOSE MATCHES")
   print("-------------")
   for i in matches:
-    print(f"Close Match: {i}")
+    print(f"Close Match at offset {i[1]}: {i[0]}")
 
 # If there are no matches at all
 if not exact_matches and not matches:
