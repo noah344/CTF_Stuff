@@ -1,20 +1,25 @@
 # Wave a Flag
-Wave a flag is a challenge by SYREAL from picoCTF 2021 now in the picoGym worth 10 points.\
-It's under the "General Skills" category.\
+This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a General Skills challenge.
 Direct Link:  https://play.picoctf.org/practice/challenge/170
 
 ## Description
-Can you invoke help flags for a tool or binary? This program has extraordinarily helpful information...\
-(Note, you should download the program from the challenge, I won't post it in Github).
+The Description reads:
+> Can you invoke help flags for a tool or binary?\
+> This program has extraordinarily helpful information...
 
 ## Hints
-Hint 1:  This program will only work in the webshell or another Linux computer.\
-Hint 2:  To get the file accessible in your shell, enter the following in the Terminal prompt: $ wget https://mercury.picoctf.net/static/beec4f433e5ee5bfcd71bba8d5863faf/warm\
-Hint 3:  Run this program by entering the following in the Terminal prompt: $ ./warm, but you'll first have to make it executable with $ chmod +x warm\
-Hint 4:  -h and --help are the most common arguments to give to programs to get more information from them!\
-Hint 5:  Not every program implements help features like -h and --help.
+There are five hints for this challenge:
+> This program will only work in the webshell or another Linux computer.\
+> To get the file accessible in your shell, enter the following in the Terminal prompt: $ wget https://mercury.picoctf.net/static/f95b1ee9f29d631d99073e34703a2826/warm\
+> Run this program by entering the following in the Terminal prompt: $ ./warm, but you'll first have to make it executable with $ chmod +x warm\
+> -h and --help are the most common arguments to give to programs to get more information from them!\
+> Not every program implements help features like -h and --help.
 
-## Solution
+# Solving
+## My Thoughts
+Super easy intro challenge to some basic linux concepts.
+
+## Waving
 This is another pretty easy one, so I'll take the time to teach or explain a few things that might be useful in the future.\
 First off, when you download the file, you might notice there's no extension to it as shown below:
 
