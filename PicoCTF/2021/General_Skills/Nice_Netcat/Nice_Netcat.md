@@ -1,17 +1,22 @@
 # Nice Netcat
-Nice Netcat is a challenge by SYREAL from picoCTF 2021 now in the picoGym worth 15 points.\
-It's under the "General Skills" category.\
+This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a General Skills challenge.\
 Direct Link:  https://play.picoctf.org/practice/challenge/156
 
 ## Description
-There is a nice program that you can talk to by using this command in a shell: $ nc mercury.picoctf.net 7449, but it doesn't speak English...
+The Description reads:
+> There is a nice program that you can talk to by using this command in a shell:\
+> $ nc mercury.picoctf.net 49039, but it doesn't speak English...
 
 ## Hints
-Hint 1:  You can practice using netcat with this picoGym problem:  what's a netcat? (note this links to another picoCTF challenge, not going to get into that here).\
-Hint 2:  You can practice reading and writing ASCII with this picoGym problem: Let's Warm Up  (See above).
+There were two hints for this challenge:
+> You can practice using netcat with this picoGym problem: what's a netcat?\
+> You can practice reading and writing ASCII with this picoGym problem: Let's Warm Up
 
-## Solution
-Well, you might be wondering what that nc is up there in the command.  That's how you run netcat on Linux!  Well great but what's netcat? I dunno! Google it!\
+# Solving
+## My Thoughts
+
+## Netcat
+Well, you might be wondering what that nc is up there in the command.  That's how you run netcat on Linux!  Well great but what's netcat?\
 Simply put, netcat is a really simple way to connect to a network port and get some data.
 
 So lets go ahead and run that command and see what happens:
