@@ -1,21 +1,22 @@
 # Obedient Cat
-Obedient Cat is a challenge by SYREAL from picoCTF 2021 now in the picoGym worth 5 points.  It's under the "General Skills" category.\
+This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a General Skills challenge.\
 Direct Link:  https://play.picoctf.org/practice/challenge/147
 
 ## Description
-This file has a flag in plain sight (aka "in-the-clear").
+The Description reads:
+> This file has a flag in plain sight (aka "in-the-clear").
 
 ## Hints
-Hint 1:
-Any hints about entering a command into the Terminal (such as the next one), will start with a '$'... everything after the dollar sign will be typed (or copy and pasted) into your Terminal.
+There are three hints for this challenge:
+> Any hints about entering a command into the Terminal (such as the next one), will start with a '$'... everything after the dollar sign will be typed (or copy and pasted) into your Terminal.\
+> To get the file accessible in your shell, enter the following in the Terminal prompt: $ wget https://mercury.picoctf.net/static/217686fc11d733b80be62dcfcfca6c75/flag\
+> $ man cat
 
-Hint 2:
-To get the file accessible in your shell, enter the following in the Terminal prompt: $ wget https://mercury.picoctf.net/static/704f877da185904ec3992e7255a15c6c/flag
+# Solving
+## My Thoughts
+This was another great intro challenge for people just starting out in CTFs.
 
-Hint 3:
-$ man cat
-
-## Solution
+## Cat
 This one is an easy one if you've ever messed with Linux.  You'll want to save the flag to a Linux OS and then simply run the command "cat flag" to view the flag.  Note that you could simply open the file with a text editor and view the flag, but I'm going to try to keep with the "spirit" of the challenge during these writeups.
 
 You can follow the step by step below:
