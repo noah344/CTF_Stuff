@@ -1,18 +1,24 @@
 # Python Wrangling
-Python Wrangling is a challenge by SYREAL from picoCTF 2021 now in the picoGym worth 10 points.\
+This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a General Skills challenge.\
 Direct Link:  https://play.picoctf.org/practice/challenge/166
 
 ## Description
-Python scripts are invoked kind of like programs in the Terminal... Can you run this python script using this password to get the flag?
-(Note, the script, password file, and flag file will all be uploaded as individual files in this folder).
+The Description reads:
+> Python scripts are invoked kind of like programs in the Terminal...\
+> Can you run this python script using this password to get the flag?
 
 ## Hints
-Hint 1:  Get the Python script accessible in your shell by entering the following command in the Terminal prompt: $ wget https://mercury.picoctf.net/static/5c4c0cbfbc149f3b0fc55c26f36ee707/ende.py\
-Hint 2:  $ man python
+There are two hints for this challenge:
+> Get the Python script accessible in your shell by entering the following command in the Terminal prompt: $ wget https://mercury.picoctf.net/static/5c4c0cbfbc149f3b0fc55c26f36ee707/ende.py\
+> $ man python
 
-## Solution
-Ok, so this one's another simple one but I think there's some extra learning that can be done here.\
-We are provided with a python file, why not go through and comment it out to see what it's doing? I'll be uploading both the base file and my commented file for you to look through.
+# Solving
+## My Thoughts
+Super easy intro challenge for Python.
+
+## Python
+This one's another simple one but I think there's some extra learning that can be done here.\
+We are provided with a python file, why not go through and comment it out to see what it's doing? I uploaded my commented file for you to look through.
 
 I'd encourage you do the same on your own and then compare with what I got, google is your friend here!  This is one of the best ways to learn python.
 
@@ -20,7 +26,7 @@ Ok, now that we've got that done, lets solve the actual challenge.  All we need 
 Follow the below steps:
 
 Start by downloading the password file, ende.py file, and flag.txt file and place them in the same folder somewhere on your OS.\
-Ok cool, we've got the files but what do we do with them? Well, typically python scripts (and most other scripts for that matter) need to be ran from the command line.\
+We've got the files but what do we do with them? Well, typically python scripts (and most other scripts for that matter) need to be ran from the command line.\
 So lets go ahead and open a console in that folder and see what we can do.  Run the "ls" command and verify that the folder contents look similar to the below screenshot:
 
 ![image](https://github.com/noah344/CTF_Stuff/assets/17501232/b28449ff-ffc5-479c-a03d-0293267e5e48)
