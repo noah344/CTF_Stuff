@@ -1,20 +1,15 @@
 #! /usr/bin/python
-# The above line just points Linux out to what program it should be using to run the script.
 
-# argparse is just used to parse user arguments to tell the script what to do
 import argparse
-# os is used to determine if the file the user enters is valid.
 import os
 
-# Creates a main function where everything else is run from.
 def main():
 	# gets user arguments and validates them.
 	args = get_args()
 	
-	# Checks if the user argument for file is set, if it is it'll call the parse_file function
+	# Checks if the user argument for file is set, if it is it'll call the parse_file function, otherwise it will just call decrypt.
 	if args.file:
 		parse_file(args.file)
-	# if not it'll just call the decrypt function
 	else:
 		print(decrypt(args.text))
 
