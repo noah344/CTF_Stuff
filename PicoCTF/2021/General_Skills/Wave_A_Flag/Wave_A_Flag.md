@@ -1,5 +1,5 @@
 # Wave a Flag
-This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a General Skills challenge.
+This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a General Skills challenge.\
 Direct Link:  https://play.picoctf.org/practice/challenge/170
 
 ## Description
