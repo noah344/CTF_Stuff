@@ -1,20 +1,24 @@
 # Information
-Information is a challenge by SUSIE from picoCTF 2021 now in the picoGym worth 10 points.\
-It's under the "General Skills" category.\
-Direct Link: https://play.picoctf.org/practice/challenge/186
+This was a challenge listed in PicoCTF 2021.  It's listed as easy and categorized as a Forensics challenge.
 
 ## Description
-Files can always be changed in a secret way.  Can you find the flag? cat.jpg\
-(Note, I won't be uploading the cat.jpg file here, you'll have to donwload it from the challenge).
+The Description reads:
+> Files can always be changed in a secret way.\
+> Can you find the flag?
 
 ## Hints
-Hint 1:  Look at the details of the file.\
-Hint 2:  Make sure to submit the flag as picoCTF(xxxxx}.
+There are two hints that reads:
+> Look at the details of the file\
+> Make sure to submit the flag as picoCTF{XXXXX}
 
-## Solution
+# Solving
+## My Thoughts
+Had the hints been better, I would consider this to be a great intro challenge.  If somebody is unfamiliar with base64 encoding though, this challenge would be pretty much impossible.  I think this would have been much better if the flag was stored in cleartext inside of the exif data.
+
+## cat.jpg
 This challenge is actually quite tricky considering the number of points you get, and if you haven't seen something like this before you'll probably struggle quite a bit.\
 Something very very common in CTF's is something called base64, it's quite complicated so go ahead and give this a read:  https://builtin.com/software-engineering-perspectives/base64-encoding\
-Basically, if you see a random string of uppercase, lowercase, and number characters, there's a good chance that it's actually a base64 encoded string.
+Basically, if you see a random string of uppercase, lowercase, and number characters, there's a good chance that it's actually a base64 encoded string.  Depending on how long the string is, you may also see it end in an = or ==.
 
 So, now that we've got that out of the way, let's get to the actual challenge.  We've been provided a picture of a cat, very cute! But there's apparently something hiding within.\
 Let's start simple and try to look at some of the exif data.  Exif data is basically data about a picture, it can include anything from the location the picture was taken to...perhaps a flag for a CTF?
@@ -31,4 +35,4 @@ That sure looks like base64 encoded text to me! Let's check with another builtin
 
 ![image](https://github.com/noah344/CTF_Stuff/assets/17501232/6528183b-c854-47c7-8dda-3381ea5b1f24)
 
-And there it is! Like I said, this one would be reeeeeally hard for a newbie especially with how unhelpful the hints are.
+And there it is! Like I said, this one would be really difficult for somebody not familiar with the concept, especially with how unhelpful the hints are.
