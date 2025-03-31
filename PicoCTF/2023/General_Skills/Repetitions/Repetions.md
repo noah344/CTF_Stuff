@@ -1,4 +1,4 @@
-# Repititions
+# Repetitions
 This was a challenge listed in PicoCTF 2023.  It's listed as Easy and categorized as a General Skills challenge.
 
 ## Description
