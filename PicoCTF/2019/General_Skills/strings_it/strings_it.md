@@ -1,4 +1,4 @@
-# dont-use-client-side
+# strings it
 This was a challenge for PicoCTF 2019.  It's listed as Easy and categorized as a General Skills challenge.  
 Direct Link: https://play.picoctf.org/practice/challenge/37
 
