@@ -20,6 +20,7 @@ There are five hints:
 
 # Solving
 ## My Thoughts
+This one was a little meh, all it really seemed to introduce was the idea of endianness, the answer was in the description as well so...yeah.
 
 ## GDB
 We should be getting familiar with this process now, let's go ahead and check the functions and disassemble main:
