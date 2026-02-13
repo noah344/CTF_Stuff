@@ -1,4 +1,4 @@
-# Glitch Cat
+# Magikarp Ground Mission
 This was a challenge for PicoCTF 2021.  It's listed as Easy and categorized as a General Skills challenge.  
 Direct Link: https://play.picoctf.org/practice/challenge/189
 
