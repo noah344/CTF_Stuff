@@ -1,4 +1,4 @@
-# dont-use-client-side
+# Vault Door Training
 This was a challenge for PicoCTF 2019.  It's listed as Easy and categorized as a Reverse Engineering challenge.  
 Direct Link: https://play.picoctf.org/practice/challenge/7
 
