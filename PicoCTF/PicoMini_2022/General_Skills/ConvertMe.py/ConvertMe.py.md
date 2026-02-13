@@ -1,4 +1,4 @@
-# Glitch Cat
+# ConvertMe.py
 This was a challenge for PicoMini 2022.  It's listed as Easy and categorized as a General Skills challenge.  
 Direct Link: https://play.picoctf.org/practice/challenge/239
 
